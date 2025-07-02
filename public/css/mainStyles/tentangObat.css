@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #2563EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.Logo img {
+    height: 40px;
+    width: auto;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+}
+
+.Logo p {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 15px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #2563EB;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li {
+        width: 100%;
+    }
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+    padding-top: 100px;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBar {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 600px;
+    background: rgba(75, 125, 255, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+.searchBar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.searchBar button {
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #5e8bff;
+    cursor: pointer;
+}
+
+.searchBar button:hover {
+    background-color: #3a6bff;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.column-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2563EB;
+    border: 2px solid #2563EB;
+    text-align: center;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #2563EB;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+}
+
+.card-name {
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.button-action button {
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #2e77ff;
+    color: #2e77ff;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.button-action button:hover {
+    background-color: #2e77ff;
+    color: white;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.back-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+footer {
+    background-color: #2563EB;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .column-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .popup-content {
+        width: 95%;
+        padding: 15px;
+    }
+}
