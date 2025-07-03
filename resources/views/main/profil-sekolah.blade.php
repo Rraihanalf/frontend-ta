@@ -358,7 +358,7 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="img/logosd.png" alt="Logo Sekolah" />
+      <img src="/public/img/logosd.png" alt="Logo Sekolah" />
       <span>SDIT AL IHSAN</span>
     </a>
     <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
@@ -422,25 +422,25 @@
     <div class="row g-4 text-center justify-content-center">
       <!-- Bahasa Arab -->
       <div class="col-md-3 col-6" data-aos="zoom-in">
-        <img src="img/bahasaarab.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
+        <img src="/public/img/bahasaarab.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
         <div>Bahasa Arab</div>
       </div>
 
       <!-- Tahfidz Al-Quran -->
       <div class="col-md-3 col-6" data-aos="zoom-in">
-        <img src="img/tahfidz.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
+        <img src="/public/img/tahfidz.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
         <div>Tahfidz Al-Quran</div>
       </div>
 
       <!-- Robotik & IT -->
       <div class="col-md-3 col-6" data-aos="zoom-in">
-      <img src="img/robotik.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
+      <img src="/public/img/robotik.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
         <div>Robotik & IT</div>
       </div>
 
       <!-- Bahasa Inggris -->
       <div class="col-md-3 col-6" data-aos="zoom-in">
-      <img src="img/bahasainggris.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
+      <img src="/public/img/bahasainggris.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
         <div>Bahasa Inggris</div>
       </div>
     </div>
@@ -455,25 +455,25 @@
     <div class="row g-4 text-center justify-content-center">
       <!-- Ruang Kelas -->
       <div class="col-md-3 col-6" data-aos="zoom-in">
-      <img src="img/ruangkelas.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
+      <img src="/public/img/ruangkelas.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
         <div>Ruang Kelas</div>
       </div>
 
       <!-- Masjid -->
       <div class="col-md-3 col-6" data-aos="zoom-in">
-      <img src="img/masjid.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
+      <img src="/public/img/masjid.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
         <div>Masjid</div>
       </div>
 
       <!-- Ruang Kelas 2 -->
       <div class="col-md-3 col-6" data-aos="zoom-in">
-      <img src="img/studio.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
+      <img src="/public/img/studio.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
         <div>Studio</div>
       </div>
 
       <!-- Perpustakaan -->
       <div class="col-md-3 col-6" data-aos="zoom-in">
-        <<img src="img/perpustakaan.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
+        <<img src="/public/img/perpustakaan.png" style="width: 100px; height: auto;" alt="Logo Sekolah">
         <div>Perpustakaan</div>
       </div>
     </div>

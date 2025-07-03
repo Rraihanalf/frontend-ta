@@ -83,7 +83,7 @@ nav {
 .banner {
   background: 
     linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
-    url('/img/pendidik.png') no-repeat center center/cover;
+    url('/public/img/pendidik.png') no-repeat center center/cover;
   height: 450px;
   display: flex;
   justify-content: center;
@@ -203,10 +203,10 @@ nav {
 <nav class="navbar navbar-expand-lg shadow-sm">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center gap-2 ps-3" href="#">
-      <img src="img/logosd.png" alt="Logo Sekolah" />
+      <img src="/public/img/logosd.png" alt="Logo Sekolah" style="height: 50px;" />
       <div class="brand-text">
-        <div class="brand-top fw-bold" style="font-size: 18px;">SD ISLAM TERPADU</div>
-        <div class="brand-bottom fw-bold" style="font-size: 25px; line-height: 1;">AL IHSAN INTERNASIONAL</div>
+        <div class="brand-top fw-bold fs-6 fs-md-5 fs-lg-4">SD ISLAM TERPADU</div>
+        <div class="brand-bottom fw-bold fs-6 fs-md-5 fs-lg-4" style="line-height: 1;">AL IHSAN INTERNASIONAL</div>
       </div>
     </a>
 
@@ -274,22 +274,22 @@ nav {
 
     <section class="team">
         <div class="card">
-            <img src="img/anak-sekolah.png" alt="Syaiful Rahman">
+            <img src="/public/img/anak-sekolah.png" alt="Syaiful Rahman">
             <h3>Syaiful Rahman, S.Pd.I.</h3>
             <p>Kepala Sekolah</p>
         </div>
         <div class="card">
-            <img src="img/anak-sekolah.png" alt="Yusroh">
+            <img src="/public/img/anak-sekolah.png" alt="Yusroh">
             <h3>Yusroh, S.Pd.</h3>
             <p>Wakabid Kurikulum</p>
         </div>
         <div class="card">
-            <img src="img/anak-sekolah.png" alt="Handayani">
+            <img src="/public/img/anak-sekolah.png" alt="Handayani">
             <h3>Handayani, S.P., S.Pd., M.Pd.I.</h3>
             <p>Wakabid Kesiswaan</p>
         </div>
         <div class="card">
-            <img src="img/anak-sekolah.png" alt="Wawan Suryadi">
+            <img src="/public/img/anak-sekolah.png" alt="Wawan Suryadi">
             <h3>Wawan Suryadi, S.Pd.</h3>
             <p>Wakabid Sarpra</p>
         </div>

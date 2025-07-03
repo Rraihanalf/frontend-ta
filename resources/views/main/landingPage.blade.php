@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SDIT AL-IKHSAN</title>
+  <link rel="icon" type="image/png" href="/public/img/logosd.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
@@ -289,12 +290,13 @@ AOS.init({
 <nav class="navbar navbar-expand-lg shadow-sm">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center gap-2 ps-3" href="#">
-      <img src="img/logosd.png" alt="Logo Sekolah" />
+      <img src="/public/img/logosd.png" alt="Logo Sekolah" style="height: 50px;" />
       <div class="brand-text">
-        <div class="brand-top fw-bold" style="font-size: 18px;">SD ISLAM TERPADU</div>
-        <div class="brand-bottom fw-bold" style="font-size: 25px; line-height: 1;">AL IHSAN INTERNASIONAL</div>
+        <div class="brand-top fw-bold fs-6 fs-md-5 fs-lg-4">SD ISLAM TERPADU</div>
+        <div class="brand-bottom fw-bold fs-6 fs-md-5 fs-lg-4" style="line-height: 1;">AL IHSAN INTERNASIONAL</div>
       </div>
     </a>
+
 
     <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
       <span class="navbar-toggler-icon"></span>
@@ -353,17 +355,23 @@ AOS.init({
 </nav>
 
 <div class="banner">
-  <div class="fade-img" style="background-image: url('/img/sd.png');"></div>
-  <div class="fade-img" style="background-image: url('/img/fasilitas.png');"></div>
-  <div class="fade-img" style="background-image: url('/img/pendidik.png');"></div>
+  <div class="fade-img" style="background-image: url('/public/img/sd.png');"></div>
+  <div class="fade-img" style="background-image: url('/public/img/fasilitas.png');"></div>
+  <div class="fade-img" style="background-image: url('/public/img/pendidik.png');"></div>
 
   <h1><strong>SDIT AL-IHSAN</strong><br>INTERNASIONAL</h1>
 </div>
 
 <!-- Contoh WhatsApp -->
-<a href="https://wa.me/6281351750693?text=Halo%20saya%20ingin%20bertanya%20tentang%20pendaftaran" target="_blank" class="wa-float">
-  <img src="img/whatsapp.png" alt="WhatsApp" width="60" height="60" />
+<a href="https://wa.me/6281351750693?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" 
+   target="_blank" 
+   style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; display: flex; align-items: center; background-color: #25D366; padding: 10px 15px; border-radius: 30px; color: white; text-decoration: none; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+  <img src="/public/img/whatsapp.png" alt="WhatsApp" width="30" height="30" style="margin-right: 10px;">
+  <span style="font-weight: bold;">Hubungi Kami</span>
 </a>
+
+
+
 
 
 
@@ -544,9 +552,18 @@ AOS.init({
     </div>
 
     <!-- Gambar Pengganti -->
-    <div id="imageContent" class="fade-toggle" style="text-align: center;">
-      <img src="img/brosur.png" alt="Foto Sekolah" style="max-width: 800px; width: 700%; height: auto; border-radius: 10px;">
-    </div>
+  <style>
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+</style>
+
+<div id="imageContent" class="fade-toggle" style="text-align: center;">
+  <img src="/public/img/brosur.png" alt="Foto Sekolah" class="responsive-img">
+</div>
+
 
   </div>
 </section>
@@ -581,17 +598,17 @@ AOS.init({
     <div class="row justify-content-center text-center g-3">
 
       <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="100">
-        <img src="img/robotik.png" style="width: 200px; height: auto;" alt="Logo Sekolah">
+        <img src="/public/img/robotik.png" style="width: 200px; height: auto;" alt="Logo Sekolah">
         <p class="mt-2 fw-semibold">Kegiatan Robotik</p>
       </div>
 
       <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="200">
-        <img src="img/tahfidz.png" style="width: 200px; height: auto;" alt="Logo Sekolah">
+        <img src="/public/img/tahfidz.png" style="width: 200px; height: auto;" alt="Logo Sekolah">
         <p class="mt-2 fw-semibold">Tahfidz Al-Qur'an</p>
       </div>
 
       <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="300">
-        <img src="img/bahasaarab.png" style="width: 200px; height: auto;" alt="Logo Sekolah">
+        <img src="/public/img/bahasaarab.png" style="width: 200px; height: auto;" alt="Logo Sekolah">
         <p class="mt-2 fw-semibold">Bahasa Arab</p>
       </div>
 
@@ -645,7 +662,7 @@ AOS.init({
       <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
         <div class="card h-100 shadow">
           <div class="position-relative">
-            <img src="img/tahfidz.png" class="card-img-top" alt="Berita 1">
+            <img src="/public/img/tahfidz.png" class="card-img-top" alt="Berita 1">
             <div class="position-absolute top-0 start-0 bg-success text-white p-2 rounded-end">
               <strong>12</strong><br>SEP
             </div>
@@ -660,7 +677,7 @@ AOS.init({
       <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
         <div class="card h-100 shadow">
           <div class="position-relative">
-            <img src="img/tahfidz.png" class="card-img-top" alt="Berita 2">
+            <img src="/public/img/tahfidz.png" class="card-img-top" alt="Berita 2">
             <div class="position-absolute top-0 start-0 bg-success text-white p-2 rounded-end">
               <strong>28</strong><br>AGU
             </div>
@@ -675,7 +692,7 @@ AOS.init({
       <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
         <div class="card h-100 shadow">
           <div class="position-relative">
-            <img src="img/tahfidz.png" class="card-img-top" alt="Berita 3">
+            <img src="/public/img/tahfidz.png" class="card-img-top" alt="Berita 3">
             <div class="position-absolute top-0 start-0 bg-success text-white p-2 rounded-end">
               <strong>16</strong><br>AGU
             </div>
@@ -694,9 +711,9 @@ AOS.init({
 <section class="section bg-white">
   <div class="container text-center">
     <h2 class="fw-bold mb-4">Profil Video SDIT AL-IHSAN</h2>
-    <p class="text-muted mb-4">Lihat suasana kegiatan belajar, fasilitas, dan kegiatan unggulan sekolah kami:</p>
+    <p class="text-muted mb-4">ACARA DZIKIR PEMBUKAAN HAUL:</p>
     <div class="ratio ratio-16x9">
-      <iframe src="https://www.youtube.com/embed/5fxkimrPkaE" 
+      <iframe src="https://www.youtube.com/embed/Nj6lArhAIZ0" 
         title="Profil SDIT AL-IHSAN" allowfullscreen 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
       </iframe>

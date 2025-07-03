@@ -11,7 +11,7 @@
       font-family: 'Poppins', sans-serif;
       background-image: 
         linear-gradient(135deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
-        url('img/login.png'); /* Ganti dengan path gambar */
+        url('/public/img/login.png'); /* Ganti dengan path gambar */
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -270,7 +270,7 @@
     <div class="left-panel">
       <h1>Welcome!</h1>
       <div class="logo-bawah">
-        <img src="img/logosd.png" alt="Logo SDIT">
+        <img src="/public/img/logosd.png" alt="Logo SDIT">
       </div>
       <p>Selamat datang di sistem informasi SD Islam Terpadu Al Ihsan. Silakan masuk untuk melanjutkan.</p>
     </div>

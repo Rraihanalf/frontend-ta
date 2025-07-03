@@ -80,7 +80,7 @@ nav {
 .banner {
   background: 
     linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
-    url('/img/pendidik.png') no-repeat center center/cover;
+    url('/public/img/pendidik.png') no-repeat center center/cover;
   height: 450px;
   display: flex;
   justify-content: center;
@@ -162,10 +162,10 @@ nav {
 <nav class="navbar navbar-expand-lg shadow-sm">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center gap-2 ps-3" href="#">
-      <img src="img/logosd.png" alt="Logo Sekolah" />
+      <img src="/public/img/logosd.png" alt="Logo Sekolah" style="height: 50px;" />
       <div class="brand-text">
-        <div class="brand-top fw-bold" style="font-size: 18px;">SD ISLAM TERPADU</div>
-        <div class="brand-bottom fw-bold" style="font-size: 25px; line-height: 1;">AL IHSAN INTERNASIONAL</div>
+        <div class="brand-top fw-bold fs-6 fs-md-5 fs-lg-4">SD ISLAM TERPADU</div>
+        <div class="brand-bottom fw-bold fs-6 fs-md-5 fs-lg-4" style="line-height: 1;">AL IHSAN INTERNASIONAL</div>
       </div>
     </a>
 
@@ -235,7 +235,7 @@ nav {
     
     <!-- Gambar -->
     <div class="col-md-5 mb-4 mb-md-0" data-aos="fade-right">
-      <img src="img/logosd.png" alt="Ilustrasi Sekolah" class="img-fluid rounded shadow" style="border: 5px solid #f1f1f1;">
+      <img src="/public/img/logosd.png" alt="Ilustrasi Sekolah" class="img-fluid rounded shadow" style="border: 5px solid #f1f1f1;">
     </div>
 
     <!-- Teks -->

@@ -165,7 +165,7 @@ nav {
 .hero {
   background: 
     linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
-    url('/img/sd.png') no-repeat center center/cover;
+    url('/public//img/sd.png') no-repeat center center/cover;
   height: 450px;
   display: flex;
   justify-content: center;
@@ -223,10 +223,10 @@ nav {
 <nav class="navbar navbar-expand-lg shadow-sm">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center gap-2 ps-3" href="#">
-      <img src="img/logosd.png" alt="Logo Sekolah" />
+      <img src="/public/img/logosd.png" alt="Logo Sekolah" style="height: 50px;" />
       <div class="brand-text">
-        <div class="brand-top fw-bold" style="font-size: 18px;">SD ISLAM TERPADU</div>
-        <div class="brand-bottom fw-bold" style="font-size: 25px; line-height: 1;">AL IHSAN INTERNASIONAL</div>
+        <div class="brand-top fw-bold fs-6 fs-md-5 fs-lg-4">SD ISLAM TERPADU</div>
+        <div class="brand-bottom fw-bold fs-6 fs-md-5 fs-lg-4" style="line-height: 1;">AL IHSAN INTERNASIONAL</div>
       </div>
     </a>
 
@@ -302,7 +302,7 @@ nav {
     <!-- Olahraga -->
     <div class="col-md-3 mb-4">
       <div class="p-4 shadow-sm rounded" style="background-color: #f9f9f9;">
-        <img src="{{ asset('img/olahraga.png') }}" alt="Olahraga" style="width: 100px; height: 100px;">
+        <img src="{{ asset('/public/img/olahraga.png') }}" alt="Olahraga" style="width: 100px; height: 100px;">
         <h5 class="mt-3 text-success">Olahraga</h5>
         <p class="text-muted">Mendorong siswa mengembangkan kebugaran jasmani dan semangat sportivitas melalui berbagai cabang olahraga.</p>
       </div>
@@ -311,7 +311,7 @@ nav {
     <!-- Seni -->
     <div class="col-md-3 mb-4">
       <div class="p-4 shadow-sm rounded" style="background-color: #f9f9f9;">
-        <img src="{{ asset('img/seni.png') }}" alt="Seni" style="width: 100px; height: 100px;">
+        <img src="{{ asset('/public/img/seni.png') }}" alt="Seni" style="width: 100px; height: 100px;">
         <h5 class="mt-3 text-success">Seni</h5>
         <p class="text-muted">Membina kreativitas siswa melalui seni musik, tari, lukis, dan pertunjukan tradisional serta modern.</p>
       </div>
@@ -320,7 +320,7 @@ nav {
     <!-- Pengetahuan -->
     <div class="col-md-3 mb-4">
       <div class="p-4 shadow-sm rounded" style="background-color: #f9f9f9;">
-        <img src="{{ asset('img/pengetahuan.png') }}" alt="Pengetahuan" style="width: 100px; height: 100px;">
+        <img src="{{ asset('/public/img/pengetahuan.png') }}" alt="Pengetahuan" style="width: 100px; height: 100px;">
         <h5 class="mt-3 text-success">Pengetahuan</h5>
         <p class="text-muted">Mengembangkan rasa ingin tahu dan minat belajar melalui klub sains, bahasa, dan literasi.</p>
       </div>
@@ -329,7 +329,7 @@ nav {
     <!-- Teknologi -->
     <div class="col-md-3 mb-4">
       <div class="p-4 shadow-sm rounded" style="background-color: #f9f9f9;">
-        <img src="{{ asset('img/teknologi.png') }}" alt="Teknologi" style="width: 100px; height: 100px;">
+        <img src="{{ asset('/public/img/teknologi.png') }}" alt="Teknologi" style="width: 100px; height: 100px;">
         <h5 class="mt-3 text-success">Teknologi</h5>
         <p class="text-muted">Membekali siswa dengan keterampilan abad 21 seperti coding, robotik, dan komputer dasar.</p>
       </div>
@@ -457,17 +457,17 @@ nav {
     <div class="row justify-content-center text-center g-3">
 
       <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="100">
-        <img src="img/robotik.png" class="img-fluid" style="width: 100px; height: auto;" alt="Robotik">
+        <img src="/public/img/robotik.png" class="img-fluid" style="width: 100px; height: auto;" alt="Robotik">
         <p class="mt-2 fw-semibold">Robotik</p>
       </div>
 
       <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="200">
-        <img src="img/tahfidz.png" class="img-fluid" style="width: 100px; height: auto;" alt="Tahfidz">
+        <img src="/public/img/tahfidz.png" class="img-fluid" style="width: 100px; height: auto;" alt="Tahfidz">
         <p class="mt-2 fw-semibold">Tahfidz</p>
       </div>
 
       <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="300">
-        <img src="img/bahasaarab.png" class="img-fluid" style="width: 100px; height: auto;" alt="Bahasa Arab">
+        <img src="/public/img/bahasaarab.png" class="img-fluid" style="width: 100px; height: auto;" alt="Bahasa Arab">
         <p class="mt-2 fw-semibold">Bahasa Arab</p>
       </div>
 
@@ -482,17 +482,17 @@ nav {
     <div class="row justify-content-center text-center g-3">
 
       <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="100">
-        <img src="img/robotik.png" class="img-fluid" style="width: 100px; height: auto;" alt="Robotik">
+        <img src="/public/img/robotik.png" class="img-fluid" style="width: 100px; height: auto;" alt="Robotik">
         <p class="mt-2 fw-semibold">Bapak Ahmad - Robotik</p>
       </div>
 
       <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="200">
-        <img src="img/tahfidz.png" class="img-fluid" style="width: 100px; height: auto;" alt="Tahfidz">
+        <img src="/public/img/tahfidz.png" class="img-fluid" style="width: 100px; height: auto;" alt="Tahfidz">
         <p class="mt-2 fw-semibold">Ustadzah Siti - Tahfidz</p>
       </div>
 
       <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="300">
-        <img src="img/bahasaarab.png" class="img-fluid" style="width: 100px; height: auto;" alt="Bahasa Arab">
+        <img src="/public/img/bahasaarab.png" class="img-fluid" style="width: 100px; height: auto;" alt="Bahasa Arab">
         <p class="mt-2 fw-semibold">Ustadz Ali - Bahasa Arab</p>
       </div>
 
